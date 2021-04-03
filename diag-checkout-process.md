@@ -1,15 +1,14 @@
-# VANTIV_ECOMMERCE
+# UI Flow
+
+the first steps are roughly the same for all 
 
 ```mermaid
 sequenceDiagram
   participant cli as Browser
   participant srv as Server
-  participant data as Data
-  participant 3rd as 3rdPartyProcessor
+  participant data as Simfel
 
   Note over cli,srv: server renders reactapp
-  Note left of data: Simfel
-  Note right of 3rd: Vantiv
 
   cli ->> srv: get myapp.com/democicero
   srv ->> data: get retrieveSiteletteByURLkeyAndTemplate
@@ -17,9 +16,9 @@ sequenceDiagram
   srv ->> cli: react app + saslData
   
   activate cli
-  Note over cli: Populate page, fill cart
+  Note over cli: Browse
   Note over cli: checkout
-  cli ->> srv: buy
+  cli ->> srv: Place order
   deactivate cli
 
   
