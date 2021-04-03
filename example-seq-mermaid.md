@@ -1,11 +1,9 @@
-# VANTIV_ECOMMERCE
+# mermaid seq. diagram
 
 ```mermaid
 sequenceDiagram
-  participant browser
-  participant phpserver (simfel / chalkboards / ...)
-  participant vantiv
-
+  participant Alice
+  participant Bob
   Alice->John: Hello John, how are you?
   loop Healthcheck
       John->John: Fight against hypochondria
@@ -15,5 +13,3 @@ sequenceDiagram
   John->Bob: How about you?
   Bob-->John: Jolly good!
 ```
-
-# TSYS_ECOMMERCE
