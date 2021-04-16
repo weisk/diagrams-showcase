@@ -2,8 +2,8 @@
 
 ```mermaid
 sequenceDiagram
-  participant cli as Browser
-  participant srv as Server
+  participant cli as YOUDASHMOBILEAPP
+  participant srv as BACKEND
   participant data as Simfel
 
   Note over cli,srv: server renders reactapp
@@ -15,7 +15,8 @@ sequenceDiagram
   
   activate cli
   Note over cli: Browse
-  Note over cli: checkout
+  Note over cli: Credit card details
+  Note over cli: Checkout
   cli ->> srv: Place order
   deactivate cli
 
