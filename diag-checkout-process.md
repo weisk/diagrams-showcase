@@ -1,6 +1,4 @@
-# UI Flow
-
-the first steps are roughly the same for all 
+# VANTIV UI FLOW
 
 ```mermaid
 sequenceDiagram
@@ -23,5 +21,3 @@ sequenceDiagram
 
   
 ```
-
-# TSYS_ECOMMERCE
