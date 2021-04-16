@@ -4,7 +4,7 @@
 ```mermaid
 sequenceDiagram
   participant gwy as TSYS
-  participant cli as Browser
+  participant cli as YOUDASHMOBILEAPP
   participant srv as Server
 
   cli ->> srv: get youdashapp.com/democicero
